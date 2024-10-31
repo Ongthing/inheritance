@@ -53,6 +53,8 @@ class Rabbit(prey):
     pass
 class Hawk(predator):
     pass
+class Fish(prey, predator):
+    pass
 
 rabbit = Rabbit()
 hawk = Hawk()
